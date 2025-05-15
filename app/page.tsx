@@ -7,8 +7,6 @@ import Title from "@/app/_components/title/title";
 import AboutBrief from "@/app/_components/aboutbrief/aboutbrief";
 import MainHead from "@/app/_components/head";
 import Slogan from "@/app/_components/slogan/slogan";
-import Sponsors from "@/app/_components/sponsors/sponsors";
-import {sponsors} from "@/utils/sponsors";
 
 // Images
 import frontBannerImg from "@/public/images/FrontPageBanner.png";
@@ -28,11 +26,11 @@ export default async function Home(): Promise<React.ReactElement> {
             />
             <AboutBrief
                 img={collage2Img}
-                description={"Oxford Academy Robotics is a student-run organization that competes in the FIRST Robotics Competition (FRC), FIRST Tech Challenge (FTC), and VEX Robotics Competition. Our mission is to inspire students to pursue careers in STEM fields by providing them with the opportunity to learn, compete, and thrive in a supportive environment."}
+                description={"Tonkotsu Tech is a robotics team that is dedicated to building robots and competing in various competitions. We are a team of students who are passionate about robotics and engineering. We are always looking for new members to join our team and help us build amazing robots."}
             />
             <Slogan
                 img={[frontBannerImg, frontBannerImg, frontBannerImg]}
-                description={"We are Oxford Academy Robotics, a high school robotics team based in Cypress, California. We are dedicated to inspiring students to pursue careers in STEM fields through hands-on experience in robotics."}
+                description={"We are a robotics team that is dedicated to building robots and competing in various competitions. We are a team of students who are passionate about robotics and engineering. We are always looking for new members to join our team and help us build amazing robots."}
                 title={"Our Goals"}
             />
             <Footer/>
