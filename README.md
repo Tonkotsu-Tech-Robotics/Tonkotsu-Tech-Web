@@ -1,18 +1,6 @@
-# OA Robotics Website
+# Tonkotsu Tech Website
 
-A modern, responsive website for Oxford Academy Robotics showcasing our FRC, FTC VEX robotics teams, achievements, and community impact.
-
-![OA Robotics](/public/logos/OARoboticsLogo_24-25.webp)
-
-## Overview
-
-This website serves as the digital home for EnVision Robotics, featuring:
-
-- Information about our FRC Team 4079
-- Details about our VEX robotics program
-- Team achievements and competition history
-- Resources for members and visitors
-- Contact information and social media links
+A modern, responsive website for Tonkotsu Tech, a robotics team based in California.
 
 ## Technologies
 
@@ -36,10 +24,10 @@ This website serves as the digital home for EnVision Robotics, featuring:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/envision-robotics-website.git
+git clone https://github.com/your-username/tonkotsu-tech-web.git
 
 # Navigate to project directory
-cd envision-robotics-website
+cd tonkotsu-tech-web
 
 # Install dependencies
 npm install
@@ -49,23 +37,6 @@ npm run dev
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to see the website.
-
-## Project Structure
-
-```
-├── app/                 # Next.js App Router
-│   ├── _components/     # Shared components
-│   ├── about/           # About us pages
-│   ├── contact/         # Contact pages
-│   ├── frc/             # FRC team pages
-|   ├── ftc              # FTC team pages
-│   ├── sponsors/        # Sponsors page
-│   ├── vex/             # VEX team pages
-│   ├── layout.tsx       # Main layout
-│   ├── page.tsx         # Home page
-├── public/              # Static assets
-└── ...
-```
 
 ## Features
 
