@@ -65,10 +65,10 @@ export default function Title({
     return (
         <div className={styles.top} style={styleBanner}>
             <div className={styles.overlay}>
-                {
-                    img2 !== undefined &&
-                    <img src={img2.src} alt="Oxford Academy Robotics"/>
-                }
+                {/*{*/}
+                {/*    img2 !== undefined &&*/}
+                {/*    <img src={img2.src} alt="Tonkotsu Tech"/>*/}
+                {/*}*/}
                 <h1 className={TW_900}>{title}</h1>
                 <p className={TW_900}>{textToType}</p>
                 <h2 className={TW_900}>{children}</h2>

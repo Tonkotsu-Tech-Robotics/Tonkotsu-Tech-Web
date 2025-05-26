@@ -9,7 +9,7 @@ import MainHead from "@/app/_components/head";
 import Slogan from "@/app/_components/slogan/slogan";
 
 // Images
-import frontBannerImg from "@/public/images/FrontPageBanner.png";
+import frontBannerImg from "@/public/images/ramenyes.jpg";
 import collage2Img from "@/public/images/collage2.png";
 import designImg from "@/public/handmade/FrontPageDesign.webp";
 

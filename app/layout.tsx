@@ -1,11 +1,11 @@
 import React from "react";
 import '@/app/globals.scss';
-import img from "@/public/logos/OARoboticsLogo_24-25.webp";
+import img from "@/public/logos/TonkotsuTechLogo.png";
 
 export const metadata = {
-    title: 'OA Robotics Website',
-    description: 'The official website for Oxford Academy Robotics',
-    keywords: 'Oxford Academy, Robotics, FRC, FTC, VEX, Oxford Academy Robotics',
+    title: 'Tonkotsu Tech Robotics',
+    description: 'The official website for Tonkotsu Tech Robotics',
+    keywords: 'Tonkotsu, Tech, Robotics',
     icons: [
         {rel: 'manifest', url: `${img.src}`},
         {rel: 'apple-touch-icon', url: `${img.src}`},
