@@ -22,11 +22,10 @@ export default async function Home(): Promise<React.ReactElement> {
                 title={"TONKOTSU TECH"}
                 description={"Rival Robotics"}
                 img1={frontBannerImg}
-                img2={designImg}
             />
             <AboutBrief
                 img={collage2Img}
-                description={"Tonkotsu Tech is a robotics team that is dedicated to building robots and competing in various competitions. We are a team of students who are passionate about robotics and engineering. We are always looking for new members to join our team and help us build amazing robots."}
+                description={"Tonkotsu Tech is a robotics team participating in the RIVAL robotics competition.  We consist of high school students from Oxford Academy and are planning to expand to different schools and competitions including hackathon. Tonkotsu Tech is aimed to open up opportunities for students to learn and get hands on experience with robotics."}
             />
             <Slogan
                 img={[frontBannerImg, frontBannerImg, frontBannerImg]}

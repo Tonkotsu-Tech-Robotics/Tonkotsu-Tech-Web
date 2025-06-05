@@ -19,7 +19,6 @@ export default function Title({
                                   title,
                                   description,
                                   img1 = bannerImg,
-                                  img2,
                                   bgMoveUp = 5
                               }: TitleProps): React.ReactElement {
     const [textToType, setTextToType] = React.useState<string>("");

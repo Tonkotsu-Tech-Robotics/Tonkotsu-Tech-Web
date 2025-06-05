@@ -31,7 +31,7 @@ export default function AboutBrief({ children, img, description }: AboutBriefPro
                     <p>
                         {description}
                     </p>
-                    <button className={`${styles.aboutButton} ${TW_600}`} ref={aboutButtonRef}>Learn More</button>
+                    {/*<button className={`${styles.aboutButton} ${TW_600}`} ref={aboutButtonRef}>Learn More</button>*/}
                 </div>
                 <div className={styles.aboutImage}>
                      <img src={img.src} alt="Oxford Academy Robotics"/>
